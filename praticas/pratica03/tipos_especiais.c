@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main (){
+    
 
     int paises = 195;
     int idiomas = 7100;

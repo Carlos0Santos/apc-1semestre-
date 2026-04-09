@@ -12,7 +12,7 @@ int main () {
     scanf (" %i", &idade);
     while (getchar()!= '\n'); // limpar o buffer
 
-    printf("Coloque seu sexo (M ou F): "); 
+    printf("Coloque seu sexo (F ou M): "); 
     scanf (" %c", &sexo);
     while (getchar()!= '\n');
 

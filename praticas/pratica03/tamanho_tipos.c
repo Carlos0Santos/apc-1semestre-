@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main () {
+    
 
     printf("Imprima o char: %ld bytes\n",sizeof(char));
     printf("Imprima o short int: %ld bytes\n",sizeof(short int));
