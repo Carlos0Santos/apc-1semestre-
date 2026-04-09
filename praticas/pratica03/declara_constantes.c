@@ -2,7 +2,6 @@
 
 int main () {
 
-
     #define PI 3.14159265
     const float EULER = 2.71828182;
 
