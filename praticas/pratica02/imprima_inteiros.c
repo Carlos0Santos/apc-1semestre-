@@ -6,8 +6,10 @@ int main () {
     int segundo = -5;
     int terceiro = 4;
 
-
     printf("%i %i %.5i", primeiro, segundo, terceiro);
+
+    printf("%i\n%i\n%.5i", primeiro, segundo, terceiro);
+
 
     return 0;
 }
