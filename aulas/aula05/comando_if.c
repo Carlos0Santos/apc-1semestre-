@@ -41,7 +41,7 @@ int main (){
     printf("Com %i anos voce tem que votar!\n", idade);
     else {
         printf("Com %i anos pode votar!\n", idade);
-    }
+    
 
     return 0;
 }

@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main (){  
+    int numero = 0;
+
+    printf("Entre com um numero de 1 a 10: ");
+    scanf("%i", &numero);
+    while (getchar() != '\n');  // Limpa o buffer do teclado
+
+    while (numero < 1 || numero > 10){
+        printf("Numero invalido! Tentede novo .\n");
+        scanf("%i", &numero);
+    }
+
+    
+    return 0;
+}
